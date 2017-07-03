@@ -1,0 +1,95 @@
+<html class="hide-sidebar ls-bottom-footer" lang="en"><head><style type="text/css">
+@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}
+</style>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Blockchain Payment Platform">
+        <meta name="author" content="EOS TOKEN">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <title>EOS | ETH</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400&amp;subset=latin">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="./main.css" rel="stylesheet" />
+       
+    </head>
+
+    <body ng-app="TenxITS" class="ng-scope">
+      <!-- uiView:  --><div ui-view="" class="container-fluid ng-scope"><div class="st-container ng-scope" ng-controller="ethController">
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-main navbar-primary navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <ul class="nav navbar-nav navbar-right" style="padding-left: 10px;">
+          <li> <a href="/token/index.html" style="color: grey;"><i class="fa fa-chevron-left"></i> BACK TO SELECT CURRENCY</a> </li>
+        </ul></div>
+    </div>
+  </div>
+  <div class="st-pusher" id="content">
+    <div class="st-content"> 
+      <!-- extra div for emulating position:fixed of the menu -->
+      <div class="st-content-inner" style="padding-top:20px">
+        <div class="container" style="padding-top:20px">
+          <div class="page-section">
+            <div class="row" style="padding-top:20px">
+              <div class="col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+                <div class="panel panel-default"> 
+                  
+  				<div class="text-center" style="padding-top: 30px">
+  					<img src="./coins/coin-eth.png" class="img-rounded" style="height: 75px;"> &nbsp;&nbsp;
+            <img src="./coins/coin-erc20.png" class="img-rounded" style="height: 75px;">
+  				</div>
+                  
+                  <div class="text-center">
+                  <h2 class="page-section-heading" style="color:#080C0E;">ETH &amp; ERC20</h2>
+               
+                	
+                      <h4 style="padding-top:20px;padding-bottom:10px; color: deepskyblue; font-weight: 300;">Recommended Gas Limit: <b>130,000</b><br>Recommended Gas Price:<b> 50 gwei</b></h4>
+
+                	
+                	<div class="panel-alert text-h4" style="margin-left: 10%; margin-right: 10%; color:black; padding-top: 20px; padding-bottom: 10px;">
+                  <!-- ngInclude: 'app/components/address/address.html' --><div ng-include="'app/components/address/address.html'" class="ng-scope"><p style="word-wrap: break-word; padding-left: 5%; padding-right: 5%; color: deepskyblue;" class="ng-scope">
+  <!-- ngIf: loading -->
+  <!-- ngIf: depositAddress -->
+  <!-- ngIf: timeLeft && !started --><span ng-if="timeLeft &amp;&amp; !started" class="ng-scope">
+  0x17e3097b4a96010b5759808a3f096194808dbdd0
+  </span><!-- end ngIf: timeLeft && !started -->
+  <!-- ngIf: ended -->
+</p></div>
+                 </div>
+                  <div class="panel-body text-center">
+                    <div class="row">
+              
+         
+             <div class="col-sm-offset-3 col-sm-6">
+                      <button type="submit" class="btn btn-primary" style="margin-top:30px; margin-bottom:10px;" ng-click="nextStep()">I HAVE SENT THE TRANSACTION<br>CHECK MY EOS TOKEN</button>
+                    </div>
+            </div>
+                    <p>IMPORTANT: Allow some time for the transaction to be processed<br>on the blockchain, before you try to check your EOS Token balance.</p>
+                  </div>
+                  <!--/panel-body--> 
+                </div>
+                <!--/panel panel-default--> 
+              </div>
+              <!--/colum...--> 
+            </div>
+            <!-- /row --> 
+          </div>
+          <!-- /page section --> 
+        </div>
+        <!-- /container--> 
+      </div>
+      <!-- /st-content-inner --> 
+    </div>
+    <!-- /st-content --> 
+  </div>
+</div></div></div>
+
+      <!-- Footer -->
+      <footer class="footer"> <strong>EOS - JOIN THE REVOLUTION </strong> © Copyright 2017 </footer>
+      <!-- // Footer -->
+    
+
+
+</body>
+</html>

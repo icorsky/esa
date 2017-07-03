@@ -1,0 +1,170 @@
+<html class="hide-sidebar ls-bottom-footer" lang="en"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Blockchain Payment Platform">
+        <meta name="author" content="PAY TOKEN">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <title>EOS | LTC</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="./main.css" rel="stylesheet" />
+
+    </head>
+
+    <body ng-app="TenxITS" class="ng-scope">
+      <!-- uiView:  --><div ui-view="" class="container-fluid ng-scope">
+<div name="signVerify" ng-controller="newController" class="ng-scope">
+<!-- Wrapper required for sidebar transitions -->
+<div class="st-container"> 
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-main navbar-primary navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <ul class="nav navbar-nav navbar-right" style="padding-left: 10px;">
+          <li> <a href="/token/index.html" style="color: grey;"><i class="fa fa-chevron-left"></i>BACK TO SELECT CURRENCY</a> </li>
+        </ul></div>
+    </div>
+  </div>
+  <!-- Sidebar component with st-effect-1 (set on the toggle button within the navbar) -->
+  <div class="st-pusher" id="content" style="padding-top:20px">
+    <div class="st-content" style="padding-top:20px">
+      <!-- extra div for emulating position:fixed of the menu -->
+      <div class="st-content-inner">
+        <div class="container">
+          <div class="page-section">
+            <div class="row" style="padding-top:20px">
+              <div class="col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+                <div class="panel panel-default"> 
+                  
+					<div class="text-center" style="padding-top: 30px">
+						<img src="./coins/coins_ltc.png" class="img-rounded" style="height: 75px;">
+					</div>
+                  
+                  <div class="text-center">
+                  <h2 class="page-section-heading" style="color:#080C0E;">LTC</h2>
+                  
+
+                      <div style="padding-top: 10px; padding-bottom: 50px;">
+                          <h3 style="color: black;">1. What we need from you:</h3>
+                          <p style="padding-left: 5%; padding-right: 5%;">
+                              1. Pay tokens are built on Ethereum. So you need to provide your<br> Ethereum address where your Pay tokens can be sent.<br><br>
+                          2. You need to demonstrate ownership of the Litecoin address from <br>where you sent us the funds.<br><br>
+                          3. For this, after you send your funds, please sign your ethereum address<br> with your Litecoin address and send us the signature through the form provided.<br>
+                          </p>
+
+                          <h4 style="color: black; padding-top:20px">This step is done <u>AFTER</u> your LTC transaction<br>
+						  (You have to do this in your wallet)<br></h4>
+                          <p>How to sign Ethereum wallet address with LTC address</p>
+
+                          <div style="margin-left: 30%; margin-right: 30%;">
+                              <p style="color: grey">General Tutorial | <a target="_blank" style="color: deepskyblue" href="https://medium.com/@TenX/general-tutorial-how-to-sign-a-message-with-a-bitcoin-address-fa1bd410be0">Tutorial </a></p>
+                              
+                          </div>
+                      </div>
+
+                      <div style="padding-top: 10px; padding-bottom: 50px;">
+                          <h3 style="color: black">2. I know how to sign, I'm ready</h3>
+
+                          <p style="padding-top: 10px;">
+                              PLEASE SEND TO THIS ADDRESS
+                          </p>
+
+                         <div class="panel-alert text-h4" style="margin-left: 10%; margin-right: 10%; color:black; padding-top: 20px; padding-bottom: 10px;">
+                              <!-- ngInclude: 'app/components/address/address.html' --><div ng-include="'app/components/address/address.html'" class="ng-scope"><p style="word-wrap: break-word; padding-left: 5%; padding-right: 5%; color: deepskyblue;" class="ng-scope">
+  <!-- ngIf: loading -->
+  <!-- ngIf: depositAddress -->
+  <!-- ngIf: timeLeft && !started --><span ng-if="timeLeft &amp;&amp; !started" class="ng-scope">
+    LWiM5mxMr6wdP6Mz4W21nsMDgrc8TLxaVU
+  </span><!-- end ngIf: timeLeft && !started -->
+  <!-- ngIf: ended -->
+</p></div>
+                          </div>
+                      </div>
+
+                      <div style="padding-top: 30px; padding-bottom: 10px;">
+                          <h3 style="color: black">3. Verify My Ethereum Address</h3>
+                      </div>
+
+                                       <h4 style="color: black; padding-top:20px">This step is done AFTER your LTC transaction<br>
+										(You have to do this in your wallet)<br><br></h4>
+										<p>How to sign Ethereum wallet address with Litecoin address</p>
+
+                          <div style="margin-left: 30%; margin-right: 30%;">
+                              <p style="color: grey">General Tutorial | <a target="_blank" style="color: deepskyblue" href="https://medium.com/@TenX/general-tutorial-how-to-sign-a-message-with-a-bitcoin-address-fa1bd410be0">Tutorial </a></p>
+                          </div> 
+                                            
+                                            
+                                            <div class="panel-body text-center">
+
+                                            <div class="panel" style="margin-left: 10%; margin-right: 10%;">
+
+                                                <p>Please submit ethereum address and other info below, otherwise we will not be able to send you PAY tokens.</p>
+
+                                                <input style="width: 100%; margin-bottom: 10px" type="" class="form-control ng-pristine ng-untouched ng-valid ng-empty" id="inputEmail3" placeholder="Your Litecoin Address" ng-model="address">
+
+                                                <input style="width: 100%; margin-bottom: 10px" type="" class="form-control ng-pristine ng-untouched ng-valid ng-empty" id="inputEmail3" placeholder="Your Ethereum Address (to send PAY Token)" ng-model="message">
+
+                                                <input style="width: 100%; margin-bottom: 10px" type="" class="form-control ng-pristine ng-untouched ng-valid ng-empty" id="inputEmail3" placeholder="Signature" ng-model="signature">
+                                            </div>
+                                            <div style="color:orangered" ng-show="element4" class="ng-hide">
+                                                <p class="error ng-binding" style=""><i class="fa fa-exclamation-triangle"></i><i class="fa fa-exclamation-triangle"></i></p>
+                                            </div>
+                                        </div>
+
+                                          <div class="panel-body text-center">
+                                              <div class="row">
+                                                  <div class="col-sm-offset-3 col-sm-6">
+                                                      <button id="nowshow" class="btn btn-primary" style="margin-top:0px; margin-bottom:10px;" onclick="checkSignature()"><i class="fa fa-1x fa-check"></i> Submit Info</button>
+                                                  </div>
+
+                                        </div>
+
+                        <div class="row ng-hide" ng-show="element5">
+                            <div class="panel" style="margin-left: 10%; margin-right: 10%; margin-top:20px; color:deepskyblue; font-weight: bold; font-size:20px">
+                                <p>Thank you for completing all the steps. You can now proceed to check your Pay Token balance.</p>
+
+                            </div>
+
+                            <div class="col-sm-offset-3 col-sm-6">
+
+                                <button type="submit" class="btn btn-primary" style="margin-top:15px; margin-bottom:10px;" ng-click="nextStep()">CHECK MY PAY TOKEN BALANCE</button>
+
+                            </div>
+                        </div>
+                        <div class="row ng-hide" ng-show="element5">
+                            <div class="panel" style="margin-left: 10%; margin-right: 10%; margin-top:20px;">
+                                <p>IMPORTANT: Please allow some time (generally a couple of minutes, depending on the traffic) for your transaction to be confirmed on the blockchain, before you try to check your PAY Token balance.</p>
+                            </div>
+
+                        </div>
+                  <!--/panel-body--> 
+                </div>
+                <!--/panel panel-default--> 
+              </div>
+              <!--/colum...--> 
+            </div>
+            <!-- /row --> 
+          </div>
+          <!-- /page section --> 
+        </div>
+        <!-- /container--> 
+      </div>
+      <!-- /st-content-inner --> 
+    </div>
+    <!-- /st-content --> 
+  </div>
+  <!-- /st-pusher --> 
+</div>
+<!-- /st-containerr --> 
+
+</div>
+</div>
+</div></div>
+
+      <!-- Footer -->
+      <footer class="footer"> <strong>JOIN THE REVOLUTION </strong> © Copyright 2017 - <a style="color:#000;" href="#">Contact Us</a></footer>
+      <!-- // Footer -->
+    
+<script>function checkSignature(){var m = document.getElementById("nowshow").classList;m.remove("ng-hide");}</script>
+
+</body></html>
